@@ -8,7 +8,7 @@
 	<li>and even if you want a <u>shadow</u> below the sticky element.</li>
 </ol></p>
 <p>This page features an example: the login form below is stuck below the navbar and is shown both when scrolling up and down.</p>
-<h3>See it in action: <a href="https://rayhyde.github.io/makesticky/"</h3>
+<h3>See it in action: <a href="https://rayhyde.github.io/makesticky/">rayhyde.github.io/makesticky</a></h3>
 <h2>How to use this plugin</h2>
 <h3>1. Link the files you need</h3>
 <p>Include the jQuery script at the bottom of your page, e.g. through a CDN:</p>
