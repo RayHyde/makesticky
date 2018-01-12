@@ -2,15 +2,21 @@
 		$.fn.makeSticky = function (options) {
 
 			var settings = $.extend({
-				stickBelow: $('header'),
+				stickBelow: false,
 				oneWay: false,
 				shadow: true
 			}, options);
 
 			var $el = $(this),
-					h = settings.stickBelow.height(),
 					didScroll,
-					lastScrollTop = 0;
+					lastScrollTop = 0,
+					h;
+
+			if (settings.stickBelow !== false) {
+				h = settings.stickBelow.height();
+			} else {
+				h = 0;
+			}
 
 			var makeSticky = function() {
 				$('body').addClass('make-sticky-active');

@@ -4,3 +4,44 @@ h1 {
 
 .make-sticky-wrapper .container {
   padding: 0; }
+
+.jumbotron {
+  margin-top: 50px;
+  background: #444 url(../img/hero.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 400px; }
+  .jumbotron .card {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-shadow: 1px 1px 1px #000; }
+  .jumbotron h1,
+  .jumbotron h2,
+  .jumbotron h3 {
+    color: #fff; }
+  .jumbotron p {
+    font-weight: 100;
+    font-size: 17px; }
+
+#explain {
+  background: #406886 url("../img/playground.png") no-repeat scroll 98% bottom/150px auto;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px 60px 60px 20px;
+  min-height: 160px;
+  margin: 30px 0; }
+  #explain > p {
+    line-height: 150%; }
+    #explain > p.extra-padding {
+      padding-right: 160px; }
+  #explain h2 {
+    margin: 0 0 10px; }
+  #explain a {
+    color: #ffffff;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+    border-bottom: solid 1px #ffffff;
+    text-decoration: none; }
+    #explain a:hover {
+      border-color: transparent;
+      text-decoration: none; }
